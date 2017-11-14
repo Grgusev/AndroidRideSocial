@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selectPick"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:layout_marginTop="?attr/actionBarSize"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:background="@drawable/bg_round_white"
+        android:padding="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        >
+
+        <ImageView
+            android:id="@+id/picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:layout_marginRight="@dimen/margin_large"
+            android:src="@drawable/picker_destination"
+            android:layout_centerVertical="true"
+            />
+        <LinearLayout
+            android:id="@+id/origLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/picker"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <AutoCompleteTextView
+                android:id="@+id/pickerOrig"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_normal"
+                android:paddingTop="@dimen/margin_normal"
+                android:singleLine="true"
+                android:hint="@string/set_pickup"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_normal"
+
+                />
+            <ImageView
+                android:id="@+id/origLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:layout_marginLeft="@dimen/margin_normal"
+                android:layout_marginRight="@dimen/margin_normal"
+                android:src="@drawable/location"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/destLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/picker"
+            android:layout_below="@id/origLayout"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <AutoCompleteTextView
+                android:id="@+id/pickerDest"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_normal"
+                android:paddingTop="@dimen/margin_normal"
+                android:singleLine="true"
+                android:hint="@string/set_destination"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_normal"
+                />
+            <ImageView
+                android:id="@+id/destLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:layout_marginLeft="@dimen/margin_normal"
+                android:layout_marginRight="@dimen/margin_normal"
+                android:src="@drawable/location"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_round_white"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:padding="@dimen/margin_normal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingTop="@dimen/margin_normal"
+            android:text="@string/select_time"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_normal"
+            />
+
+        <RadioGroup
+            android:id= "@+id/set_start_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin_normal"
+
+            >
+            <RadioButton
+                android:id="@+id/now"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_normal"
+                android:textSize="@dimen/textsize_large"
+                android:text="@string/now"
+                android:checked="true"
+                android:layout_marginBottom="@dimen/margin_small"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="@dimen/margin_normal"
+                android:background="@color/divide_color"
+                />
+            <RadioButton
+                android:id="@+id/custom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_normal"
+                android:textSize="@dimen/textsize_large"
+                android:text="@string/custom_time"
+                android:layout_marginTop="@dimen/margin_small"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:textSize="@dimen/textsize_normal"
+            android:text="12/6/2017"
+            android:textColor="@color/button_color"
+            android:drawableLeft="@drawable/calendar"
+            android:gravity="center_vertical"
+            />
+
+        <Button
+            android:id="@+id/btn_find_others"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:background="@drawable/bg_btn_default"
+            android:padding="@dimen/padding_small"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:text="@string/find_others"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_normal" />
+    </LinearLayout>
+
+</RelativeLayout>

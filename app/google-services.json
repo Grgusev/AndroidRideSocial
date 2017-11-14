@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "398449919326",
+    "firebase_url": "https://ridesocialapp-e5cb6.firebaseio.com",
+    "project_id": "ridesocialapp-e5cb6",
+    "storage_bucket": "ridesocialapp-e5cb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398449919326:android:c73bd5465d6f50e0",
+        "android_client_info": {
+          "package_name": "com.pjtech.android.ridesocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398449919326-fjpqk2b7082t464gj9tvoa3el5gamsop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pjtech.android.ridesocial",
+            "certificate_hash": "e27c9205a668f40dc0b495e3205511e4fe6e77e3"
+          }
+        },
+        {
+          "client_id": "398449919326-b4mff1bi1lcb2tcs2qsjonmmf27ellsr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdjO1V28rzkQSdDWuSlPxiDIMZqJW6RZg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398449919326-b4mff1bi1lcb2tcs2qsjonmmf27ellsr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "398449919326-75tineee1qi6ee5fjcaqugoj9bguccq8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cloudstream.app.RideSocial"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

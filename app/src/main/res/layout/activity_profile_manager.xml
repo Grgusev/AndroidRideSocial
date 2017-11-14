@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/margin_large"
+    android:paddingRight="@dimen/margin_large"
+    android:layout_marginTop="@dimen/margin_normal"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:src="@drawable/logo"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/margin_small"
+        android:paddingTop="@dimen/margin_small"
+        android:text="@string/signup_profile_mesg"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize_very_large"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_width="120dip"
+        android:layout_height="120dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_large"
+        android:src="@drawable/profile"
+        app:civ_border_width="1px"
+        app:civ_border_color="@color/black_press_color"
+        />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_very_large"
+        android:background="@drawable/bg_btn_default"
+        android:padding="@dimen/margin_normal"
+        android:text="@string/Next"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_small"
+        android:paddingTop="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:text="@string/profile_desc"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize_normal"
+        />
+
+    <TextView
+        android:id="@+id/btn_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_normal"
+        android:paddingTop="@dimen/margin_normal"
+        android:text="@string/skip"
+        android:textColor="@color/link_text_color"
+        android:textSize="@dimen/textsize_normal"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_very_large"
+        />
+
+</LinearLayout>
+

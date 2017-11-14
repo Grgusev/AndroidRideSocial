@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey_color">#AAAAAA</color>
+    <color name="focus">#3a9a81</color>
+    <color name="purple">#46459b</color>
+
+    <color name="drawer_background">#104661</color>
+    <color name="drawer_item_selected_background">#396880</color>
+    <color name="white">#ffffff</color>
+    <color name="white_trans">#80ffffff</color>
+    <color name="white_trans0">#00ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_trans">#80000000</color>
+    <color name="red_light">#f15858</color>
+    <color name="green">#4bae1f</color>
+    <color name="green_dark">#3d8c19</color>
+    <color name="green_light">#2aff00</color>
+    <color name="blue">#2face7</color>
+    <color name="blue_dark">#1684bc</color>
+    <color name="blue_dark_trans">#dd1684bc</color>
+    <color name="blue_dark_trans_more">#801684bc</color>
+    <color name="blue_light">#dbf0fa</color>
+    <color name="blue_light_more">#b4daee</color>
+    <color name="text_label_color">#9c9c9e</color>
+    <color name="button_color">#09abad</color>
+    <color name="button_press_color">#098b8d</color>
+
+    <color name="black_color">#090909</color>
+    <color name="black_press_color">#888888</color>
+
+    <color name="link_text_color">#30a2a1</color>
+
+    <color name="grey">#4b4b4b</color>
+    <color name="grey_light">#9fa2a4</color>
+    <color name="grey_light_more">#c4c4c4</color>
+    <color name="grey_light_extra">#f1f5f7</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Text -->
+    <color name="text_normal">#333333</color>
+    <color name="text_light">#9fa2a4</color>
+    <color name="divide_color">#ceded2</color>
+    <color name="transparent_black">#55000000</color>
+    <color name="pink_color">#ff00be</color>
+    <color name="pink_press_color">#ffbebe</color>
+    <color name="grey_back">#dfdfdf</color>
+
+    <color name="stroke_color">#00a2e9</color>>
+</resources>

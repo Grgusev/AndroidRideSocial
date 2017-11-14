@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pay_receive_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:visibility="gone"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:background="@drawable/bg_round_white"
+        android:padding="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_normal"
+                android:text="@string/trip_detail"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/textsize_normal"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/total_fare_receive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingTop="@dimen/margin_normal"
+            android:text="@string/total_fare"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_large"
+            />
+        <TextView
+            android:id="@+id/request_fare_receive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingTop="@dimen/margin_normal"
+            android:textStyle="bold"
+            android:text="@string/payment_request"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_large"
+            />
+
+        <TextView
+            android:id="@+id/receive_fare_receive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingTop="@dimen/margin_normal"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_large"
+            android:text="@string/payment_receive"
+            />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:background="@drawable/bg_btn_default"
+            android:padding="@dimen/padding_small"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_normal"
+            android:text="@string/OK"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

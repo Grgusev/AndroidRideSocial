@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/submitDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_black"
+    android:visibility="gone"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:background="@drawable/bg_round_white"
+        android:padding="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        >
+
+        <TextView
+            android:id="@+id/no_router"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:gravity="center"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_large"
+            android:text="@string/router_not_found"
+            android:visibility="gone"
+            />
+
+        <ProgressBar
+            android:id="@+id/submitProgress"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:indeterminate="false"
+            >
+        </ProgressBar>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_large"
+            android:text="@string/submit_mesg"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/btn_cancel_find_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:background="@drawable/bg_btn_default"
+            android:padding="@dimen/padding_small"
+            android:text="@string/cancel_find"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_normal"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

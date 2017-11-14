@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_normal"
+    >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dip"
+        android:layout_weight="2"
+        android:layout_height="30dip"
+        android:textSize="@dimen/textsize_normal"
+        android:textColor="@color/black"
+        android:text="James"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        />
+
+    <EditText
+        android:id="@+id/fare"
+        android:layout_width="0dip"
+        android:layout_weight="4"
+        android:layout_height="30dip"
+        android:background="@drawable/bg_edit_border"
+        android:textSize="@dimen/textsize_normal"
+        android:textColor="@color/black"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="0$"
+        />
+
+    <Button
+        android:id="@+id/btn_send_fare"
+        android:layout_width="0dip"
+        android:layout_weight="4"
+        android:layout_height="30dip"
+        android:background="@drawable/bg_btn_default"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:text="@string/Request"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_normal" />
+
+
+</LinearLayout>

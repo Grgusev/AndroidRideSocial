@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/payment_receive_part"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_large"
+    android:layout_marginRight="@dimen/margin_large"
+    android:visibility="gone"
+    >
+
+    <TextView
+        android:id="@+id/total_fare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_normal"
+        android:paddingTop="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_very_large"
+        android:text="@string/total_fare"
+        android:textSize="@dimen/textsize_large"
+        />
+    <TextView
+        android:id="@+id/request_fare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_normal"
+        android:paddingTop="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:textStyle="bold"
+        android:text="@string/payment_request"
+        android:textSize="@dimen/textsize_large"
+        />
+    <TextView
+        android:id="@+id/receive_fare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_normal"
+        android:paddingTop="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:textStyle="bold"
+        android:text="@string/payment_receive"
+        android:textSize="@dimen/textsize_large"
+        />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_really_large"
+        android:background="@drawable/bg_btn_default"
+        android:padding="@dimen/margin_small"
+        android:text="@string/OK"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_normal" />
+
+
+</LinearLayout>

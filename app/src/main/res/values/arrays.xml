@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preMessages" >
+        <item>"I'm on my way"</item>
+        <item>"I have reached"</item>
+        <item>"I will be the ride host and call the cab"</item>
+        <item>"I have already called the cab"</item>
+        <item>"Sorry, I can't be the ride host"</item>
+    </string-array>
+</resources>

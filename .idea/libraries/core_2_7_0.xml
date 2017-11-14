@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="core-2.7.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/93481dc09c9ff076c24fd9823b7e9881309369e0/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/93481dc09c9ff076c24fd9823b7e9881309369e0/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.api/core/2.7.0/1289fc17ebb57d7f4e7208bbcc5a4f19cc3e7cb9/core-2.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

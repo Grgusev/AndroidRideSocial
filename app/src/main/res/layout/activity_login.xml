@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue_light"
+    android:paddingLeft="@dimen/margin_large"
+    android:paddingRight="@dimen/margin_large"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/margin_normal"
+        android:paddingTop="@dimen/margin_normal"
+        android:text="@string/Login"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/textsize_very_large"
+        android:layout_marginLeft="@dimen/margin_normal"
+        />
+
+    <EditText
+        android:id="@+id/edt_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:background="@drawable/bg_round_white"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:padding="@dimen/margin_large"
+        android:textColor="@color/text_normal"
+        android:textSize="@dimen/textsize_normal" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:background="@drawable/bg_round_white"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:padding="@dimen/margin_large"
+        android:textColor="@color/text_normal"
+        android:textSize="@dimen/textsize_normal" />
+
+    <CheckBox
+        android:id="@+id/chk_remeber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:button="@drawable/bg_chk_blue"
+        android:text="@string/remember_me"
+        android:textColor="@color/text_normal"
+        android:textSize="@dimen/textsize_normal" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_extra_large"
+        android:background="@drawable/bg_btn_blue"
+        android:padding="@dimen/margin_large"
+        android:text="@string/Login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_normal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_normal"
+        android:paddingTop="@dimen/margin_normal"
+        >
+        <TextView
+            android:id="@+id/btn_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingTop="@dimen/margin_normal"
+            android:text="@string/_Sign_up_"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/textsize_normal"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:layout_alignParentLeft="true"
+            />
+
+        <TextView
+            android:id="@+id/btn_forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingTop="@dimen/margin_normal"
+            android:text="@string/_Forgot_password_"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/textsize_normal"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

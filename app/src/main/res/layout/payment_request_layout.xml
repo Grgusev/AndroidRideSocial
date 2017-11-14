@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pay_request_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:visibility="gone"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:background="@drawable/bg_round_white"
+        android:padding="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_fare"
+                android:layout_marginRight="@dimen/margin_normal"
+                />
+
+            <EditText
+                android:id="@+id/total_fare"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_edit_border"
+                android:hint="@string/enter_total"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/textsize_large"
+                android:padding="@dimen/margin_small"
+                />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id= "@+id/method_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_normal"
+            android:paddingTop="@dimen/margin_normal"
+            android:orientation="vertical"
+            >
+            <RadioButton
+                android:id="@+id/equal_spilit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_normal"
+                android:textSize="@dimen/textsize_large"
+                android:text="@string/equal_spilit"
+                android:checked="true"
+                />
+            <RadioButton
+                android:id="@+id/custom_spilit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_normal"
+                android:textSize="@dimen/textsize_large"
+                android:text="@string/custom_spilit"
+                />
+            <RadioButton
+                android:id="@+id/settle_own"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_normal"
+                android:textSize="@dimen/textsize_large"
+                android:text="@string/settle_own"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/payment_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Have not setup payment"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/textsize_normal"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:visibility="gone"
+            />
+
+        <ListView
+            android:id="@+id/request_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btn_next_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:background="@drawable/bg_btn_default"
+            android:padding="@dimen/padding_small"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_normal"
+            android:text="@string/Next"
+            />
+    </LinearLayout>
+</RelativeLayout>

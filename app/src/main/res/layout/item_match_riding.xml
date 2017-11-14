@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_large"
+            android:textColor="@color/black"
+            android:text="James"
+            android:layout_gravity="center_vertical"
+            />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="android:attr/ratingBarStyleSmall"
+            android:layout_width="0dip"
+            android:layout_height="50dip"
+            android:layout_weight="4"
+            android:clickable="false"
+            android:isIndicator="false"
+            android:max="5"
+            android:numStars="5"
+            android:rating="5"
+            android:transformPivotX="0dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/facebook_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize_large"
+        android:textColor="@color/black"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_very_small"
+        android:text="James with link"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

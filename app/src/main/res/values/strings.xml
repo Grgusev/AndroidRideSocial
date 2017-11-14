@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">RideSocial</string>
+    <string name="mapAPIKey">AIzaSyD6m-HjKrdBgTdKQQLr22TTFWK1ilF9Sn0</string>
+    <string name="facebook_app_id">1732021980147614</string>
+    <string name="fb_login_protocol_scheme">fb1732021980147614</string>
+    <string name="Unknown">Unknown</string>
+    <string name="msg_error_network">No network connection!</string>
+    <string name="OK">OK</string>
+    <string name="username">Username</string>
+    <string name="Password">Password</string>
+    <string name="mm">MM</string>
+    <string name="cvv">CVV</string>
+    <string name="remember_me">Remember me</string>
+    <string name="Login">Login</string>
+    <string name="_Forgot_password_"><u>Forgot Password</u></string>
+    <string name="_Sign_up_"><u>Sign Up</u></string>
+    <string name="Sign_up">Signup</string>
+    <string name="Callnumber">Cell Number</string>
+    <string name="Call_number">CELL NUMBER</string>
+    <string name="Verify">Verify</string>
+    <string name="verify_mesg">PLEASE ENTER 4 DIGIT CONFIRMATION CODE</string>
+    <string name="confirm_mesg">Confirmation Code</string>
+    <string name="username_err">Please Enter Username</string>
+    <string name="cellnum_err">Please Enter Cell Number</string>
+    <string name="verifyinsert_err">Please Enter Verify Code</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_ride_history">Ride History</string>
+    <string name="nav_payment_setup">Payment Setup</string>
+    <string name="nav_add_cab_service">Add Cab Service</string>
+    <string name="nav_link_with_facebook">Link with facebook</string>
+    <string name="nav_invite_friends">Invite Friends</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Ride History</item>
+        <item>Payment</item>
+        <item>Cab Service</item>
+        <item>Facebook</item>
+        <item>Invite</item>
+        <item>Help</item>
+        <item>Logout</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fb_link_mesg">Do you want to link Facebook?</string>
+    <string name="yes">Yes</string>
+    <string name="no_decide">No, I might do it later</string>
+    <string name="Next">Next</string>
+    <string name="profile_mesg">Add a Profile Picture</string>
+    <string name="profile_desc">We strongly recommend adding a picture. It strongly increases your chances to be matched with other riders.</string>
+    <string name="skip"><u>Skip for now, I\'ll do it later</u></string>
+    <string name="payment_mesg">Add Payment Method</string>
+    <string name="payment_desc">Please add as many payment methods as possible, in order to make payments compatible with other users.</string>
+    <string name="paypal">Paypal</string>
+    <string name="venmo">Venmo</string>
+    <string name="credit">Credit/Debit Card</string>
+    <string name="credit_desc">You can only send but not receive</string>
+    <string name="paytm">Paytm</string>
+    <string name="cabservice_mesg">Add existing cab services</string>
+    <string name="cabservice_desc">We found the following ride services installed on your phone. Select to add them for onetap calling.</string>
+    <string name="uber">Uber</string>
+    <string name="lyft">Lyft</string>
+    <string name="set_pickup">Set Pickup</string>
+    <string name="set_destination">Set Destination</string>
+    <string name="select_time">Select Time</string>
+    <string name="now">Leaving Now</string>
+    <string name="custom_time">Custom Time</string>
+    <string name="PickUP">Pickup</string>
+    <string name="destination">Distination</string>
+    <string name="find_others">Find Other Rides</string>
+    <string name="cancel_find">Cancel and Find Another Ride</string>
+    <string name="submit_mesg">Request Submitted. We will notify you when a ride match has been found.</string>
+    <string name="title">title</string>
+    <string name="matched_with">Matched With:</string>
+    <string name="Continue">Continue</string>
+    <string name="find_anther_ride">Find Another Ride</string>
+    <string name="Send">Send</string>
+    <string name="Reach_Go">I have reached. Ready to go!</string>
+    <string name="type_custom">Type Custom Message</string>
+    <string name="who_hosting">Who\'s hosting this ride?</string>
+    <string name="hosting_desc">The person hosting the ride will call the cab and the other riders will pay them.</string>
+    <string name="call_uber">Call Uber</string>
+    <string name="call_lyft">Call Lyft</string>
+    <string name="enter_total">Enter Total Fare</string>
+    <string name="equal_spilit">Equal Split</string>
+    <string name="custom_spilit">Custom Split</string>
+    <string name="set_own_desc">We will settle it on our own</string>
+    <string name="total_fare">"Total Fare: "</string>
+    <string name="payment_request">"Payment Requested: "</string>
+    <string name="payment_requested_from">"Payment Requested from %1$s"</string>
+    <string name="Pay">Pay</string>
+    <string name="payment_receive">Payment Received:</string>
+    <string name="payment_received_from">"Payment Received from %1$s"</string>
+    <string name="submit">Submit</string>
+    <string name="pick_image">Take from Picture</string>
+    <string name="pick_camera">Take from Camera</string>
+    <string name="network_unavailable">Network is Unavailable. Please check Network connection</string>
+    <string name="connect_err">Connection Error. Please Check Connection.</string>
+    <string name="no_existing_name">No Exist User. Please Signup.</string>
+    <string name="invalid_verify">Invalid verify code. Please Signup</string>
+    <string name="noactive_account">Account is not activated. Please Activate.</string>
+    <string name="duplicate_user">Duplicate User. Please use another name</string>
+    <string name="other_err">Invalid Error</string>
+    <string name="no_user">No exist User. Please Enter User name and send code.</string>
+    <string name="fb_cancel">Facebook login canceled.</string>
+    <string name="signup_err">Signup failed. Please check connection and user info.</string>
+    <string name="paypal_integration">Paypal Integration</string>
+    <string name="invalid_user">Invalid User</string>
+    <string name="send_code">Send Code</string>
+    <string name="invalid_phone_number">Invalid Phone Number</string>
+    <string name="full_name">FULL NAME</string>
+    <string name="fb_link_help">Linking with FB helps us match you with friends or friends of friends.</string>
+    <string name="signup_profile_mesg">Signup - Add a profile pic</string>
+    <string name="user_name">USER NAME</string>
+    <string name="venmeo_integration">Venmo Integration</string>
+    <string name="credit_integration">Credit/Debit Card</string>
+    <string name="paytm_integration">Paytm Integration</string>
+    <string name="my_location">My Location</string>
+    <string name="start_position">Start</string>
+    <string name="end_position">End</string>
+    <string name="settle_own">We will settle it on our own</string>
+    <string name="trip_detail">Trip Details</string>
+    <string name="Save">Save</string>
+    <string name="link_facebook">Link with Facebook</string>
+    <string name="fb_link_help_mesg">Linking with FB helps us match you with friends or friends of friends. We will never post anything on your wall.</string>
+    <string name="link">I want to Link now</string>
+    <string name="fb_link_help_no_mesg">You have already linked with your account \"%s\"</string>
+    <string name="fb_no_link">Delink from Facebook</string>
+    <string name="invite_friend">Invite Friends from my Phonebook</string>
+    <string name="share_on_social">Share on Social Media</string>
+    <string name="logout">Logout</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="help">Help</string>
+    <string name="how_to_use">How to Use</string>
+    <string name="feedback">Feedback</string>
+    <string name="logout_mesg">Are you sure want to logout?</string>
+    <string name="no">NO</string>
+    <string name="account_delete">Are you sure want to delete your account?</string>
+    <string name="share_text">Share Link :</string>
+    <string name="check_install">"Please Install Social App : "</string>
+    <string name="saved">Saved</string>
+    <string name="router_not_found">No Exist Match Router</string>
+    <string name="select_contact">Select Contacts to Invite</string>
+    <string name="search">Search</string>
+    <string name="send_invite">Send invite</string>
+    <string name="sms_failed">Send Sms Failed</string>
+    <string name="sms_send">Sent Invitation.</string>
+    <string name="format_pickup">%1$s\'s pickup</string>
+    <string name="format_walk">(%1$d mins walk away)</string>
+    <string name="format_destination">%1$s\'s destination</string>
+    <string name="router_match">Router Matching</string>
+    <string name="router_matched">Suggested Router</string>
+    <string name="hosting_select">Paying for your ride</string>
+    <string name="call_cab">Call the Cab</string>
+    <string name="send_payment_title">Send Payment Request</string>
+    <string name="message_rouner">"Ride with "</string>
+    <string name="hosting_selected">Selected Hosting</string>
+    <string name="host_not_selected">Not Selected Hosting</string>
+    <string name="hosting_selected_not_you">"%1$s is selected as Hosting"</string>
+    <string name="Request">Request</string>
+    <string name="receive_request_payment">Payment Request from %1$s</string>
+    <string name="me">Me</string>
+    <string name="Payment_request_success">Send Request Payment Successfully.</string>
+    <string name="Payment_request_Failed">Send payment Request failed.</string>
+    <string name="drive_type">Drive Type</string>
+    <string name="drive_desc">How would you like to travel today?</string>
+    <string name="driving_desc">I \'m driving, I can carpool and drive others.</string>
+    <string name="not_driving_desc">I\'m not driving, I would like to rideshare/carpool with others.</string>
+    <string name="waitPaymentRequest">Waiting Payment Request...</string>
+    <string name="card_number">Card Number</string>
+    <string name="email_error">Insert correct mail.</string>
+    <string name="password_error">Insert correct password</string>
+    <string name="format_payment_statua">"%1$s does not have a payment method setup, please settle up with them using other means."</string>
+
+
+</resources>

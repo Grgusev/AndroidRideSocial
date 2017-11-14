@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pjtech.android.ridesocial.ui.fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <include layout="@layout/pick_select_action"/>
+        <include layout="@layout/submit_layout"/>
+        <include layout="@layout/ride_match_layout"/>
+        <include layout="@layout/message_layout"/>
+        <include layout="@layout/hosting_layout"/>
+        <include layout="@layout/uber_layout"/>
+        <include layout="@layout/payment_request_layout"/>
+        <include layout="@layout/payment_req_receive_layout"/>
+        <include layout="@layout/payment_receive_layout"/>
+        <include layout="@layout/rate_co_riders"/>
+        <include layout="@layout/wait_payment_layout"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
